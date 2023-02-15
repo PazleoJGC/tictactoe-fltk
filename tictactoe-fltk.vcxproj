@@ -127,7 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="boardBase.cpp" />
+    <ClCompile Include="gameState.cpp" />
+    <ClCompile Include="size20.cpp" />
+    <ClCompile Include="size3.cpp" />
     <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="boardBase.h" />
+    <ClInclude Include="gameState.h" />
+    <ClInclude Include="size20.h" />
+    <ClInclude Include="size3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
